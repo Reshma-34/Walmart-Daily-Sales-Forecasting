@@ -29,7 +29,7 @@ Univariate Models:
 Multivariate Models:
 1.ARIMA + Fourier
 2.SARIMAX
-3.Hybrid Model (SARIMAX + LSTM)
+3.Hybrid Model (SARIMAX + LSTM) (G. Peter Zhang Time series forecasting using a hybrid ARIMA and neural network model, 2001, Elsevier Science
 
 Data Split:
 1.By State (3)
@@ -37,8 +37,5 @@ Data Split:
 3.By Department (7)
 
 #### Metric:
-RMSE
-The Root Mean Squared Error is defined as the square root of the average squared error.
-
-MASE
-It is the mean absolute error of the forecast values, divided by the mean absolute error of the in sample one step naive forecast.
+RMSE : The Root Mean Squared Error is defined as the square root of the average squared error.
+MASE : It is the mean absolute error of the forecast values, divided by the mean absolute error of the in sample one step naive forecast.
